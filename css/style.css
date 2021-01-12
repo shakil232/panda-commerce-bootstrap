@@ -1,4 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
+
+
+.carousel-bg .carousel-item{
+    background-color:#fceae8  ;
+    border-radius: 10px;
+}
+.cetagory {
+    
+    border-radius: 20px;
+}
+.cetagory img{
+    width:100px; 
+}
+
+
+.panda-cards{
+    border:0;
+}
+.panda-cards-footer{
+    border: 0;
+    background-color: white;
+}
+.submit-bg {
+    background-color:#fceae8 ;
+}
+.btn-color{
+    background-color:#ff2c7f ;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
