@@ -1,0 +1,169 @@
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Volkhov:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;  
+}
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Volkhov", serif;
+}
+.buy-icon{
+  font-size: 15px;
+  padding-right: 3px;
+}
+
+/* Start Carousel Section */
+.carousel-bg{
+    background-color:#fceae8  ;
+    border-radius: 10px;
+}
+.carousel-head{
+  color:#363958;
+  font-size: 40px;
+}
+.carousel-prah{
+  color: dimgray;
+}
+.carousel-price{
+  color: orangered;
+  font-size: 30px;
+  font-weight: 600;
+}
+.carousel-btn{
+  width: 125px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  background-color: orangered;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
+}
+.carousel-btn:hover{
+  background-color:rgb(5, 155, 75); 
+}
+
+/* Start CATEGORY Section */
+.category{
+    border-radius: 15px;
+}
+.category img{
+    width:35%; 
+}
+.category h1 {
+    font-weight: 700;
+}
+.category-watch{
+    background-color: #FFA500;
+}
+.category-bag{
+    background-color: #DA70D6;
+}
+.category-shoe{
+    background-color: #0000FF;
+}
+
+/* Card Section */
+.card-section-title{
+    color: #363958;
+    font-weight: 600;
+  }
+  .card-img{
+    border: 1px solid lightgrey;
+  }
+  .card-title{
+    color: #363958;
+  }
+  .card-price{
+    font-size: 30px;
+    font-weight: 700;
+    color: orangered;
+  }
+  .card-btn{
+    width: 125px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+    background-color: orangered;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px;
+    cursor: pointer;
+    transition: all ease-in-out 1.2s;
+  }
+  .card-btn:hover{
+    background-color:rgb(5, 155, 75); 
+  }
+
+  /* Start Subscribe Section */
+.subscribe-bg {
+    background-color:#fceae8 ;
+}
+.subscribe-header{
+  color: #363958;
+}
+.subscribe-prah{
+  color: dimgray;
+  font-size: 17px;
+  font-weight: 600;
+}
+.subscribe-inputs{
+  width: 250px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 8px;
+  background-color: whitesmoke;
+  font-size: 15px;
+  color: white;
+  box-shadow: 5px 5px 10px lightgrey;
+}
+.submit-btn{
+  width: 125px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  background-color: rgb(15, 170, 87);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
+}
+.submit-btn:hover{
+  background-color:rgb(160, 11, 197); 
+}
+
+/* Footer Section */
+.footer-text{
+  color: #363958;
+}
+.footer-color{
+  color: rgb(8, 138, 170);
+  transition: all ease-in-out 1.2s;
+  font-weight: 600;
+}
+.footer-color:hover{
+  color: green;
+}
