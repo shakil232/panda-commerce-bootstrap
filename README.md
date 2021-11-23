@@ -7,7 +7,7 @@
 - html5 & css3 uses .
 
 ### _Web-Site Live Link_
-[click here](http://192.168.0.103:5500/index.html)
+[click here](https://shakil232.github.io/panda-commerce-bootstrap/)
 
 _ALL Device Responsive image_
 ![Landing Page](images/markdwon/panda-commerce-responsive.png)
